@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Pierre The Onion</title>
+</head>
     <style>
+body{
+    background-image: url("https://images.alphacoders.com/557/557503.jpg");
+    background-size:cover;
+}
 input {
     float:left;
     width:650px;
-    display: inline;
+    display: inline;    
 }
  
 #button {
@@ -14,53 +20,23 @@ input {
     display: inline;
 }
 
-    </style>
-</head>
-
-
-
-<body>
-
-<h2 style="color:orange;">Romanian tradition:</h2>
-
-<form>
-  <select id="foodr" name="foodr">
-    <option value="MA">Mamaliguta cu branza si smantana</option>
-   
-    <option value="S">Sarmale</option>
-  </select>
-</form>
-
-</body>
-
-<body style="background-color:white">
-    <title>Pierre The Onion</title>
-<h2 style="color:orange;">What do you have on the frige:</p>
-
-
-<input id="button" type="button" value="Random recipe">
-
-<style> 
 select {
 
-    width: 60%;
+    width: 20%;
     padding: 16px 15px;
-    border: none;
+    border:none;
     border-radius: 2px;
-    background-color: darkslategrey;
+    background-color: green;
 }
-</style>
-<style> 
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
-    
-   
+    height: 60px;
+    border: orangered;
     font-size: 16px;
-    background-color: darkslategrey;
+    background-color: green;
     
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
+    
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
@@ -69,37 +45,47 @@ input[type=text] {
 
 
 input[type=text]:focus {
-     background-color: darkslategrey;
-    color:orange;
+     background-color: green;
+    color:whitesmoke;
     width:22%;
 }
-</style>
-</head>
-<body>
 
-
-
-<form>
-  <input type="text" name="search" placeholder="Search...">
-</form>
-
-<head>
-<style> 
 input[type=button], input[type=submit], input[type=reset] {
  
     background-color: darkred;
     border: none;
-    color: white;
+    color: whitesmoke;
     padding: 16px 30px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
 }
-</style>
-</head>
+    </style>
 
 
 
-</head>
+
+
+<body>
+
+<h2 style="color:orangered;">Romanian tradition:</h2>
+
+<form>
+  <select style="color:white" id="foodr" name="foodr">
+    <option value="MA">Mamaliguta cu branza si smantana</option>
+    <option value="S">Sarmale</option>
+  </select>
+</form>
+<h2 style="color:orangered;">What do you have on the frige:</p>
+<input id="button" type="button" value="Random recipe">
+<form>
+  <input style="color:white" type="text" name="search" placeholder="Search...">
+</form>
+
+</body>
+
+
+
+
 
 </html>
