@@ -5,39 +5,42 @@
 </head>
     <style>
 body{
-    background-image: url("https://images.alphacoders.com/557/557503.jpg");
-    background-size:1500px 850px;
+ background-image: url("https://kokstars.files.wordpress.com/2014/01/wallpaper-861253.jpg");
+    background-size:cover;
 }
 input {
     float:left;
-    width:650px;
-    display: inline;    
+    width:850px;
+   display: inline;   
 }
  
 #button {
     float:left;
-    width:200px;
-    display: inline;
+    width:130px;
+    
+  display: inline;   
 }
 
 select {
-
+    
     width: 20%;
     padding: 16px 15px;
     border:none;
     border-radius: 2px;
-    background-color: green;
+    background-color: azure;
 }
 input[type=text] {
-    width: 130px;
+    width: 170px;
     box-sizing: border-box;
     height: 60px;
-    border: orangered;
-    font-size: 16px;
-    background-color: green;
-    
-    
-    padding: 12px 20px 12px 40px;
+    border-radius: 8px;
+border:none;
+    font-size: 20px;
+    background-color: tomato;
+     background-image: url('http://icons.iconarchive.com/icons/graphicloads/100-flat/64/zoom-search-2-icon.png');
+        background-repeat: no-repeat;
+        background-size: 60px 60px;
+    padding: 12px 20px 12px 70px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -45,21 +48,25 @@ input[type=text] {
 
 
 input[type=text]:focus {
-     background-color: green;
-    color:whitesmoke;
+     background-color: tomato;
+    color:black;
     width:22%;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
  
     background-color: darkred;
-    border: none;
-    color: whitesmoke;
-    padding: 16px 30px;
+border-radius: 50%;
+    color: orange;
+    padding: 16px 20px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
 }
+
+
+
+
     </style>
 
 
@@ -68,18 +75,19 @@ input[type=button], input[type=submit], input[type=reset] {
 
 <body>
 
-<h2 style="color:orangered;">Romanian tradition:</h2>
+
+<h2 style="color:white;">Romanian tradition:</h2>
 
 <form>
-  <select style="color:white" id="foodr" name="foodr">
+  <select style="color:black" id="foodr" name="foodr">
     <option value="MA">Mamaliguta cu branza si smantana</option>
     <option value="S">Sarmale</option>
   </select>
 </form>
-<h2 style="color:orangered;">What do you have on the frige:</p>
+<h2 style="color:white;">What do you have on the frige:</p>
 <input id="button" type="button" value="Random recipe">
 <form>
-  <input style="color:white" type="text" name="search" placeholder="Search...">
+  <input style="color:black" type="text" name="search" placeholder="Search...">
 </form>
 
 </body>
