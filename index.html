@@ -21,20 +21,13 @@ input {
   display: inline;   
 }
 
-select {
-    
-    width: 20%;
-    padding: 16px 15px;
-    border:none;
-    border-radius: 2px;
-    background-color: azure;
-}
+
 input[type=text] {
     width: 170px;
     box-sizing: border-box;
     height: 60px;
     border-radius: 8px;
-border:none;
+    border:none;
     font-size: 20px;
     background-color: tomato;
      background-image: url('http://icons.iconarchive.com/icons/graphicloads/100-flat/64/zoom-search-2-icon.png');
@@ -64,7 +57,15 @@ border-radius: 50%;
     cursor: pointer;
 }
 
+h3 {
+    color: black;
+    text-align: center  ;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+     
 
+}
 
 
     </style>
@@ -76,14 +77,9 @@ border-radius: 50%;
 <body>
 
 
-<h2 style="color:white;">Romanian tradition:</h2>
+<h3 style="color:black; ">Romanian dark side</h3>
 
-<form>
-  <select style="color:black" id="foodr" name="foodr">
-    <option value="MA">Mamaliguta cu branza si smantana</option>
-    <option value="S">Sarmale</option>
-  </select>
-</form>
+
 <h2 style="color:white;">What do you have on the frige:</p>
 <input id="button" type="button" value="Random recipe">
 <form>
