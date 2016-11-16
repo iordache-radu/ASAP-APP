@@ -10,10 +10,16 @@ body{
 }
 input {
     float:left;
-    width:850px;
+    width:130px;
    display: inline;   
 }
  
+ input#button1 {
+    float:left;
+    width:130px;
+   display: inline;   
+}
+
 #button {
     float:left;
     width:130px;
@@ -23,7 +29,7 @@ input {
 
 
 input[type=text] {
-    width: 170px;
+    width: 180px;
     box-sizing: border-box;
     height: 60px;
     border-radius: 8px;
@@ -43,27 +49,38 @@ input[type=text] {
 input[type=text]:focus {
      background-color: tomato;
     color:black;
-    width:22%;
+    width:25%;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
- 
+button {
     background-color: darkred;
-border-radius: 50%;
-    color: orange;
-    padding: 16px 20px;
+    border: olive;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    
 }
 
+
+.button2 {
+background-color: tan;
+border-radius:50%;
+padding: 18px 30px;
+ display: inline-block;
+  margin: 5px 5px ;}
+ 
 h3 {
     color: black;
     text-align: center  ;
     position: fixed;
     bottom: 0px;
     width: 100%;
-     
+     text-shadow: 2px 2px 5px red;
 
 }
 
@@ -80,12 +97,13 @@ h3 {
 <h3 style="color:black; ">Romanian dark side</h3>
 
 
-<h2 style="color:white;">What do you have on the frige:</p>
-<input id="button" type="button" value="Random recipe">
+<h2 style="color:khaki;">What do you have in the frige:</p>
+
+<button class="button ">Random Recipe</button>
 <form>
   <input style="color:black" type="text" name="search" placeholder="Search...">
 </form>
-
+<button class="button button2">Add</button>
 </body>
 
 
